@@ -1,0 +1,57 @@
+
+body {
+ margin: 0;
+ background: #eef1ef;
+ font-family: 'Hubballi', cursive;
+}
+
+container {
+  width: 80%
+  margin: 0 auto;
+}
+
+container two {
+  display: grid;
+  justify-content: centre;
+}
+
+img.a {
+  vertical-align: baseline;
+  text-align: justified;
+  padding: 10px 10px 10px;	
+}
+
+header {
+  background: #4e6e58;
+  padding: 20px;
+}
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 170px;
+  padding-top: 30px;
+}
+
+
+nav a {
+  color: #eef1ef;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: #000;
+}
